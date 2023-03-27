@@ -6,7 +6,7 @@ public class BallSpawner : MonoBehaviour
     public Rigidbody2D ballPrefab;
     public Transform spawnPoint;
     public TextMeshProUGUI scoreText;
-    public PointSystem pointSystem;
+    //public PointSystem pointSystem;
 
     private bool hasHit = false;
     private Rigidbody2D currentBall;
@@ -35,7 +35,7 @@ public class BallSpawner : MonoBehaviour
             GameManager.instance.overallScore++;
             scoreText.text = "Score: " + GameManager.instance.overallScore;
             hasHit = true;
-            pointSystem.UpdatePointsText();
+            //pointSystem.UpdatePointsText();
         }
     }
 

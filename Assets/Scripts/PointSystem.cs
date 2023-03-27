@@ -7,7 +7,9 @@ public class PointSystem : MonoBehaviour
 
     public void Start()
     {
+        pointsText = GetComponent<TextMeshProUGUI>();
         UpdatePointsText();
+
     }
 
     public void OnCollisionEnter2D(Collision2D collision)

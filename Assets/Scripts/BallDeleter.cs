@@ -7,6 +7,7 @@ public class BallDeleter : MonoBehaviour
 
     private void Update()
     {
+        /*
         if (Input.GetMouseButtonDown(0))
         {
             mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -14,6 +15,7 @@ public class BallDeleter : MonoBehaviour
             Rigidbody2D newBall = Instantiate(ballPrefab, mousePos, Quaternion.identity);
             newBall.velocity = Vector2.zero;
         }
+        */
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

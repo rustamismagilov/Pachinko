@@ -4,6 +4,7 @@ public class ScoreManager : MonoBehaviour
 {
     private static ScoreManager instance;
 
+    
     public static ScoreManager Instance
     {
         get
@@ -15,6 +16,7 @@ public class ScoreManager : MonoBehaviour
             return instance;
         }
     }
+    
 
     private int points = 0;
 
