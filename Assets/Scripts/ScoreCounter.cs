@@ -1,39 +1,31 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
 public class ScoreCounter : MonoBehaviour
 {
-    private int points = 0;
-
-    public TextMeshProUGUI scoreText;
-
-    private bool hasHit = false;
-    private ObjectSpawner arrayOfObjectsToSpawn;
+    public TextMeshProUGUI scoreText;  // A reference to the TextMeshProUGUI component in the scene that will display the score
+    private int scorePoints = 0;        // The default score value
 
     public void Start()
     {
-        scoreText = GetComponent<TextMeshProUGUI>();
-        scoreText.text = "Score: " + points;
+        UpdateScoreText();  // Updates the score text in the UI when the script is first started
     }
 
-    public void OnCollisionEnter2D(Collision2D collision)
+    // Update the score displayed in the UI based on the current value of the scorePoints value
+    public void UpdateScoreText()
     {
-        if (collision.gameObject.CompareTag("ScoreTrigger"))
-        {
-            if (collision.gameObject.CompareTag("Object"))
-            {
-                IncreaseScore(collision.gameObject);
-            }
-        }
+        scoreText.text = "Score: " + GetScore();   // Set the text of the scoreText component to the current score
     }
 
-    public void IncreaseScore(GameObject obj)
+    // This method adds scorePoints to the overall amount of scorePoints
+    public void AddPoints(int newPoints)
     {
-        points++;
-        scoreText.text = "Score: " + points;
-        hasHit = true;
-        DeleteOnCollide deleteScript = obj.GetComponent<DeleteOnCollide>();
+        scorePoints += newPoints;   // Add new points to the current score
+    }
+
+    // This method returns the current score
+    public int GetScore()
+    {
+        return scorePoints; // Return the current score value
     }
 }
