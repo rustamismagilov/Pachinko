@@ -815,10 +815,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1351803455}
     m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: scoreMultiplier
-      value: 25
-      objectReference: {fileID: 0}
     - target: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
       propertyPath: m_Name
       value: Cat (1)
@@ -913,14 +909,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 343792793}
+      addedObject: {fileID: 343792799}
   m_SourcePrefab: {fileID: 100100000, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
 --- !u!224 &343792787 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4097745319468349711, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
   m_PrefabInstance: {fileID: 343792786}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &343792793
+--- !u!114 &343792799
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -932,7 +928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 567e631ea26005b4f9e8332e245dbf17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreMultiplier: 25
+  _scoreMultiplier: 25
 --- !u!1 &357214088 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
@@ -946,10 +942,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1351803455}
     m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: scoreMultiplier
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
       propertyPath: m_Name
       value: Cat
@@ -1044,7 +1036,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1529936654}
+      addedObject: {fileID: 1529936660}
   m_SourcePrefab: {fileID: 100100000, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
 --- !u!4 &409899858 stripped
 Transform:
@@ -1961,10 +1953,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1351803455}
     m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: scoreMultiplier
-      value: 75
-      objectReference: {fileID: 0}
     - target: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
       propertyPath: m_Name
       value: Cat (3)
@@ -2059,7 +2047,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 778633238}
+      addedObject: {fileID: 778633244}
   m_SourcePrefab: {fileID: 100100000, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
 --- !u!224 &715971107 stripped
 RectTransform:
@@ -2232,7 +2220,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1434455640}
+      addedObject: {fileID: 1434455646}
   m_SourcePrefab: {fileID: 100100000, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
 --- !u!224 &745373686 stripped
 RectTransform:
@@ -2244,7 +2232,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
   m_PrefabInstance: {fileID: 715971106}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &778633238
+--- !u!114 &778633244
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2256,7 +2244,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 567e631ea26005b4f9e8332e245dbf17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreMultiplier: 75
+  _scoreMultiplier: 75
 --- !u!1 &802320429
 GameObject:
   m_ObjectHideFlags: 0
@@ -3143,10 +3131,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1351803455}
     m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: scoreMultiplier
-      value: 50
-      objectReference: {fileID: 0}
     - target: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
       propertyPath: m_Name
       value: Cat (6)
@@ -3241,7 +3225,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1695273605}
+      addedObject: {fileID: 1695273611}
   m_SourcePrefab: {fileID: 100100000, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
 --- !u!224 &1027093814 stripped
 RectTransform:
@@ -3256,10 +3240,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1351803455}
     m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: scoreMultiplier
-      value: 25
-      objectReference: {fileID: 0}
     - target: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
       propertyPath: m_Name
       value: Cat (7)
@@ -3354,7 +3334,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1386559210}
+      addedObject: {fileID: 1386559216}
   m_SourcePrefab: {fileID: 100100000, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
 --- !u!224 &1063431634 stripped
 RectTransform:
@@ -4184,10 +4164,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1351803455}
     m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: scoreMultiplier
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
       propertyPath: m_Name
       value: Cat (8)
@@ -4282,7 +4258,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1875427778}
+      addedObject: {fileID: 1875427784}
   m_SourcePrefab: {fileID: 100100000, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
 --- !u!224 &1215697930 stripped
 RectTransform:
@@ -4945,10 +4921,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1351803455}
     m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: scoreMultiplier
-      value: 75
-      objectReference: {fileID: 0}
     - target: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
       propertyPath: m_Name
       value: Cat (5)
@@ -5043,7 +5015,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 2095904088}
+      addedObject: {fileID: 2095904094}
   m_SourcePrefab: {fileID: 100100000, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
 --- !u!224 &1319214079 stripped
 RectTransform:
@@ -5419,7 +5391,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
   m_PrefabInstance: {fileID: 1063431633}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1386559210
+--- !u!114 &1386559216
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5431,13 +5403,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 567e631ea26005b4f9e8332e245dbf17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreMultiplier: 25
+  _scoreMultiplier: 25
 --- !u!1 &1434455634 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
   m_PrefabInstance: {fileID: 745373685}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1434455640
+--- !u!114 &1434455646
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5449,7 +5421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 567e631ea26005b4f9e8332e245dbf17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreMultiplier: 100
+  _scoreMultiplier: 100
 --- !u!1 &1438050233
 GameObject:
   m_ObjectHideFlags: 0
@@ -5620,10 +5592,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1351803455}
     m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: scoreMultiplier
-      value: 50
-      objectReference: {fileID: 0}
     - target: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
       propertyPath: m_Name
       value: Cat (2)
@@ -5718,14 +5686,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1455539174}
+      addedObject: {fileID: 1455539180}
   m_SourcePrefab: {fileID: 100100000, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
 --- !u!224 &1455539168 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4097745319468349711, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
   m_PrefabInstance: {fileID: 1455539167}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1455539174
+--- !u!114 &1455539180
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5737,13 +5705,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 567e631ea26005b4f9e8332e245dbf17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreMultiplier: 50
+  _scoreMultiplier: 50
 --- !u!1 &1529936648 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
   m_PrefabInstance: {fileID: 372943851}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1529936654
+--- !u!114 &1529936660
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5755,7 +5723,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 567e631ea26005b4f9e8332e245dbf17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreMultiplier: 10
+  _scoreMultiplier: 10
 --- !u!1 &1552553603
 GameObject:
   m_ObjectHideFlags: 0
@@ -6058,7 +6026,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
   m_PrefabInstance: {fileID: 1027093813}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1695273605
+--- !u!114 &1695273611
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6070,7 +6038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 567e631ea26005b4f9e8332e245dbf17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreMultiplier: 50
+  _scoreMultiplier: 50
 --- !u!1 &1714637909
 GameObject:
   m_ObjectHideFlags: 0
@@ -6784,7 +6752,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
   m_PrefabInstance: {fileID: 1215697929}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1875427778
+--- !u!114 &1875427784
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6796,7 +6764,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 567e631ea26005b4f9e8332e245dbf17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreMultiplier: 10
+  _scoreMultiplier: 10
 --- !u!1 &1879064922
 GameObject:
   m_ObjectHideFlags: 0
@@ -7230,7 +7198,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
   m_PrefabInstance: {fileID: 1319214078}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2095904088
+--- !u!114 &2095904094
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7242,7 +7210,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 567e631ea26005b4f9e8332e245dbf17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreMultiplier: 75
+  _scoreMultiplier: 75
 --- !u!1001 &8666900545903479301
 PrefabInstance:
   m_ObjectHideFlags: 0
