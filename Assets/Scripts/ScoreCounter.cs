@@ -24,6 +24,8 @@ public class ScoreCounter : MonoBehaviour
     {
         scorePoints += newPoints * scoreMultiplier.scoreMultiplier; // Add new points to the current score which is being calculated using scoreMultiplier value of the ScoreMultiplier component
         UpdateScoreText();
+
+        Debug.Log("Current score: " + scorePoints);
     }
 
     // This method returns the current score
