@@ -12,11 +12,10 @@ public class DeleteOnCollide : MonoBehaviour
         {
             // Reference to the ScoreCounter class to use it variables
             ScoreCounter scoreCounter = FindObjectOfType<ScoreCounter>();
-            ScoreMultiplier scoreMultiplier = collision.gameObject.GetComponent<ScoreMultiplier>();
-            int scoreMultiplierValue = scoreMultiplier ? scoreMultiplier.scoreMultiplier : 1;
-            scoreCounter.AddPoints(1, scoreMultiplierValue); // Adds 1 point multiplied by scoreMultiplierValue to the overall amount of score
-            scoreCounter.UpdateScoreText(); // Update the score text in the UI
-            Destroy(gameObject);            // Destroy the current object
+
+            scoreCounter.AddPoints(1);          // Add one point to the score
+            scoreCounter.UpdateScoreText();     // Update the score text in the UI
+            Destroy(gameObject);                // Destroy the current object
         }
     }
 }

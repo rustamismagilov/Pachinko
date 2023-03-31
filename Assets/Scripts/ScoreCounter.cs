@@ -18,13 +18,11 @@ public class ScoreCounter : MonoBehaviour
         scoreText.text = "Score: " + GetScore();
     }
 
-    public void AddPoints(int newPoints, int scoreMultiplierValue)
+    public void AddPoints(int newPoints)
     {
-        Debug.Log("New points: " + newPoints);
-        scorePoints += newPoints * scoreMultiplierValue;
-        UpdateScoreText();
+            scorePoints += newPoints * scoreMultiplier.scoreMultiplier;
+            UpdateScoreText();   
     }
-
 
     public int GetScore()
     {
