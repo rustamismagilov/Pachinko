@@ -459,7 +459,7 @@ GameObject:
   m_Layer: 0
   m_Name: ObjectsSpawnPoint
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -928,7 +928,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 567e631ea26005b4f9e8332e245dbf17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scoreMultiplier: 25
+  scoreMultiplier: 25
+  triggerObject: {fileID: 0}
 --- !u!1 &357214088 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
@@ -2244,7 +2245,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 567e631ea26005b4f9e8332e245dbf17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scoreMultiplier: 75
+  scoreMultiplier: 75
+  triggerObject: {fileID: 0}
 --- !u!1 &802320429
 GameObject:
   m_ObjectHideFlags: 0
@@ -5403,7 +5405,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 567e631ea26005b4f9e8332e245dbf17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scoreMultiplier: 25
+  scoreMultiplier: 25
+  triggerObject: {fileID: 0}
 --- !u!1 &1434455634 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
@@ -5421,7 +5424,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 567e631ea26005b4f9e8332e245dbf17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scoreMultiplier: 100
+  scoreMultiplier: 100
+  triggerObject: {fileID: 0}
 --- !u!1 &1438050233
 GameObject:
   m_ObjectHideFlags: 0
@@ -5705,7 +5709,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 567e631ea26005b4f9e8332e245dbf17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scoreMultiplier: 50
+  scoreMultiplier: 50
+  triggerObject: {fileID: 0}
 --- !u!1 &1529936648 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
@@ -5723,7 +5728,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 567e631ea26005b4f9e8332e245dbf17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scoreMultiplier: 10
+  scoreMultiplier: 10
+  triggerObject: {fileID: 4097745319468349704, guid: 35b214d4ea116d74e87fe611c1a5404d, type: 3}
 --- !u!1 &1552553603
 GameObject:
   m_ObjectHideFlags: 0
@@ -6038,7 +6044,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 567e631ea26005b4f9e8332e245dbf17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scoreMultiplier: 50
+  scoreMultiplier: 50
+  triggerObject: {fileID: 0}
 --- !u!1 &1714637909
 GameObject:
   m_ObjectHideFlags: 0
@@ -6764,7 +6771,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 567e631ea26005b4f9e8332e245dbf17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scoreMultiplier: 10
+  scoreMultiplier: 10
+  triggerObject: {fileID: 0}
 --- !u!1 &1879064922
 GameObject:
   m_ObjectHideFlags: 0
@@ -7210,7 +7218,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 567e631ea26005b4f9e8332e245dbf17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _scoreMultiplier: 75
+  scoreMultiplier: 75
+  triggerObject: {fileID: 0}
 --- !u!1001 &8666900545903479301
 PrefabInstance:
   m_ObjectHideFlags: 0
